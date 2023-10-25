@@ -34,7 +34,7 @@ inquirer
         type: 'list',
         message: '',
         name: 'license',
-        choices: ['MIT', 'REGULAR', 'SECURE'],
+        choices: ['MIT'],
     },
     {
         type: 'input',
@@ -73,6 +73,7 @@ inquirer
     function generateMarkdown(data) {
       return `
 # Title: ${data.title}
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # Description
 ${data.description}
