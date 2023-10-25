@@ -1,8 +1,8 @@
 
-# <  >
+# readme-madeeasy
 
 # Description
-
+this is a readme generator that uses terminal nodejs to create a README.md file by asking a few questions then adding your inputs into the .md file.
 
 # Table of contents
 - Title 
@@ -16,21 +16,21 @@
 - Questions
 
 # Installation
-
+n/a
 
 # Usage
-
+this app is meant to be used in the creation of a .md file using terminal and nodejs
 
 # License 
 
-Covered under MIT license.
+n/a
 
 # Contributing
-
+n/a
 
 # Tests
-
+n/a
 
 # Questions 
 
-For questions click this link: https://github.com/ or E-mail here:  
+For questions click this link: https://github.com/hfelix3
