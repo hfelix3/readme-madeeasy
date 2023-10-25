@@ -15,10 +15,10 @@ inquirer
       name: 'description',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         message: 'Table of contents:',
         name: 'tableofcontents',
-        choices: ['yes','no'],
+        choices: ['add'],
     },
     {
         type: 'input',
@@ -61,7 +61,7 @@ inquirer
     //here we are creating the type of file we want with the method writeFile (maybe use appendfile vs writefile) because writefile replaces content in file and appendfile adds to it.
     var markdown = generateMarkdown(answers)
 
-    fs.writeFile('README.md', markdown,(err) =>
+    fs.writeFile('GENERATEDREADME.md', markdown,(err) =>
     err ? console.log(err) : console.log('Success!')
     
     
